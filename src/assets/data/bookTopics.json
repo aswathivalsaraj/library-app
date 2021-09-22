@@ -1,0 +1,26 @@
+[
+    {   
+        "topicId": "1", 
+        "topicName": "sports"
+    },
+    {   
+        "topicId": "2", 
+        "topicName": "technology"
+    },
+    {   
+        "topicId": "3", 
+        "topicName": "business"
+    },
+    {   
+        "topicId": "4", 
+        "topicName": "transport"
+    },
+    {   
+        "topicId": "5", 
+        "topicName": "technics"
+    },
+    {   
+        "topicId": "6", 
+        "topicName": "fashion"
+    }
+]

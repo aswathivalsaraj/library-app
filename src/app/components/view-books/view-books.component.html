@@ -1,0 +1,27 @@
+<table class="table" *ngIf="booksList">
+    <thead class="thead-light">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Topics</th>
+        <th scope="col">Title</th>
+        <th scope="col">Summary</th>
+        <th scope="col" >Edit</th>
+        <th scope="col" >Delete</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor = "let book of booksList; let i=index">
+        <th scope="row">{{ book.id  }} </th>
+        <td>{{ book.topics }} </td>
+        <td>{{ book.title }} </td>
+        <td>{{ book.summary }} </td>
+        <td>
+          <a [routerLink]="['/editBook/', book.id]">
+            <i class="fa fa-edit"></i>
+          </a>
+        </td>
+        <td> <a (click)="deleteBook(book.id)"><i class="fa fa-trash"></i>
+        </a></td>
+      </tr>          
+    </tbody>
+  </table>        
