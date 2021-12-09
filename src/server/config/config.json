@@ -1,4 +1,5 @@
 {
-    "port": "8080",
-    "hostname":"http://localhost"
+     "port": "8080",
+    "localhost":"http://localhost",
+    "hostname":"https://main.d3gqhe35acv49i.amplifyapp.com/"
 }
